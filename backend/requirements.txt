@@ -1,0 +1,22 @@
+
+# RAG Document Assistant - backend dependencies
+# Install inside your activated virtual environment:
+#   python -m pip install -r requirements.txt
+
+# API server
+fastapi
+uvicorn[standard]
+python-multipart
+
+# RAG: embeddings, document parsing, and vector storage
+sentence-transformers
+pypdf
+chromadb
+
+# LLM provider and environment configuration
+groq
+python-dotenv
+
+# Testing
+pytest
+httpx
